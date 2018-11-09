@@ -1,0 +1,146 @@
+/*
+STYLE.CSS
+Maken it purdy
+*/ 
+
+
+body{
+  width: 220px;
+  padding: 0px;
+  background-color: #fff;
+  min-height: 300px;
+}
+
+.main-content{
+  overflow: hidden;  
+}
+
+.title{
+  text-align: center;
+  font-size: 8pt;
+  letter-spacing: 0.2em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+    min-height: 20px;
+}
+
+.status{
+  display: none;
+  margin: 10px 0px;
+  color: #333;
+  padding: 6px;
+  font-size: 12px;
+  background-color: #fff;
+  border: 1px #777 solid;
+}
+
+h4{
+  margin-top: 2px;
+  color: #000;
+}
+
+
+.btn {
+  display: inline-block;
+  width: 48%;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #999;
+  border-radius: 5px;
+  padding: 6px 0px;
+  background-color: #fff;
+  color: #222;
+  cursor: pointer;
+  letter-spacing: 0.08em;
+  white-space: normal;
+  font-size: 11px;
+  margin: auto;
+  background: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+  background: -moz-linear-gradient(top,  #FFF,  #eee);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#EEEEEE');
+}
+
+
+a.btn-red:hover, a.btn-green:hover{
+  opacity: 0.8;
+}
+
+
+.domain-action-off-btn, .domain-action-on-btn{
+  font-size: 8pt;
+  width: 30px;
+  padding: 2px;
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 16px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: red;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 4px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: LimeGreen;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(13px);
+  -ms-transform: translateX(13px);
+  transform: translateX(13px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 16px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+.icon-stop, .icon-start{
+  width: 25px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.loadinggif{
+  width: 40px;
+  vertical-align: middle;
+
+}

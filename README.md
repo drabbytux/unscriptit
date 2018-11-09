@@ -1,4 +1,4 @@
+# appremovalmachine
+A handy Chrome extension for troubleshooting app involvement within unresponsive shops
 
-![UNscriptIT](https://screenshot.click/drabbytux-p9kk0-unscriptit-logo_1.png)
-
-UNscriptIT is a Chrome Extention that removes script injections from webpage in order to troubleshoot apps, third-party code and functionality.
+***Currently in lo-fi beta mode***
